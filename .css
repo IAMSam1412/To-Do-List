@@ -1,0 +1,105 @@
+/* background */
+body {
+    font-family: sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1581431886211-6b932f8367f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  /* title */
+  h1 {
+    color: #333;
+    margin-top: 0;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* the input bar */
+  input[type="text"] {
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    width: 60%;
+    margin-right: 20px;
+    font-family: cursive, Brush Script MT;
+    color: rgb(47, 143, 87);
+    border-radius: 8px;
+  }
+  /* button style without hovering cursor */
+  button {
+    background-color: #555555;
+    color: black; /* Gray */
+    border: none;
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    font-family: cursive, Brush Script MT;
+  }
+  /* button style with hovering cursor */
+  button:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.55),
+      0 17px 50px 0 rgba(0, 0, 0, 0.55);
+    background-color: #444;
+    color: green;
+    font-family: cursive, Brush Script MT;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* items once added to the list */
+  li {
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-family: cursive, Brush Script MT;
+    color: rgb(47, 143, 87);
+    text-align: center;
+  }
+  
+  /* adds a pointer to the cursor when hovering over checkbox */
+  input[type="checkbox"] {
+    cursor: pointer;
+  }
+  
+  #errorMessage {
+    display: none;
+    color: red;
+    background: pink;
+    border: solid;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    body {
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: center;
+      background-image: url("https://images.unsplash.com/photo-1581431886211-6b932f8367f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: inherit;
+    }
+  }
+  
